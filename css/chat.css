@@ -125,7 +125,6 @@
 }
 .incoming__message {
   align-self: flex-start;
-  width: 50%;
 }
 .sent__message {
   align-self: flex-end;
@@ -184,4 +183,7 @@
 
 .sent__message {
   animation: sentAnimation 0.5s ease-out forwards;
+}
+.incoming__message .message__bubble {
+  width: 120px;
 }
