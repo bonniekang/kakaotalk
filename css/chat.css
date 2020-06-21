@@ -185,5 +185,5 @@
   animation: sentAnimation 0.5s ease-out forwards;
 }
 .incoming__message .message__bubble {
-  width: 120px;
+  width: 100px;
 }
