@@ -7,6 +7,8 @@
       src="https://kit.fontawesome.com/65fa874ff3.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+
     <title>Chats Kakao Clone</title>
   </head>
   <body>
@@ -43,7 +45,7 @@
       <ul class="chats__list">
         <li class="chats__chat">
           <div class="chat__column">
-            <img class="chat__avatar g-avatar" src="images/avatar12.jpg" />
+            <img class="chat__avatar" src="images/avatar12.jpg" />
 
             <div class="chat__content">
               <span class="chat__username">
@@ -59,8 +61,8 @@
           </div>
         </li>
 
+        <a href="chat.html">
         <li class="chats__chat">
-          <a href="chat.html">
             <div class="chat__column">
               <img class="chat__avatar" src="images/avatar4.jpg" />
 
@@ -75,10 +77,10 @@
               <span class="chat__timestamp">
                 13:05
               </span>
+              <div class="chat__badge4">1</div>
             </div>
-          </a>
         </li>
-
+</a>
         <li class="chats__chat">
           <div class="chat__column">
             <img class="chat__avatar" src="images/avatar7.jpg" />
@@ -112,6 +114,7 @@
             <span class="chat__timestamp">
               12:40
             </span>
+            <div class="chat__badge3">1</div>
           </div>
         </li>
 
@@ -132,6 +135,7 @@
             <span class="chat__timestamp">
               12:20
             </span>
+            <div class="chat__badge2">1</div>
           </div>
         </li>
 
@@ -150,6 +154,7 @@
             <span class="chat__timestamp">
               11:05
             </span>
+            <div class="chat__badge1">1</div>
           </div>
         </li>
 
@@ -179,7 +184,10 @@
           <a href="friends.html"><i class="far fa-user"></i></a>
         </li>
         <li class="nav__list-item">
-          <a href="index.html"><i class="fas fa-comment"></i></a>
+          <a href="index.html" class="nav__list-link"></a>
+            <div class="nav__badge">4</div>
+            <i class="fas fa-comment"></i
+          ></a>
         </li>
         <li class="nav__list-item">
           <a href="find.html"><i class="fab fa-slack-hash"></i></a>
@@ -189,5 +197,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small</span>
+    </div>
   </body>
 </html>
