@@ -125,6 +125,7 @@
 }
 .incoming__message {
   align-self: flex-start;
+  width: 50%;
 }
 .sent__message {
   align-self: flex-end;
